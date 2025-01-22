@@ -1,0 +1,26 @@
+.card {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 8rem;
+    height: 11rem;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+.card .front {
+    transform: rotateY(90deg);
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: absolute;
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+
+}
