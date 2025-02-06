@@ -1,3 +1,4 @@
+import React from 'react'
 import './Card.css'
 import cover from '../../assets/cover.jpeg'
 export default function Card({ card, handleChoise, flipped, disabled }) {

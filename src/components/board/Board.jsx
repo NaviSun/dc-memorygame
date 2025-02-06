@@ -1,3 +1,4 @@
+import React from 'react'
 import './Board.css'
 import Card from "../Card/Card";
 export default function Board({ cards, handleChoise, choiseOne, choiseTwo, disabled, sizeBoard }) {
